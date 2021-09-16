@@ -8,7 +8,7 @@ import contact from "../../../data/contact";
 import React from "react";
 
 const Contact: React.FC = () => (
-  <section className="grid grid-cols-2 gap-20 p-12 text-white bg-gradient-to-tr from-blue-400 via-blue-500 to-blue-500 rounded-xl">
+  <section id="contact" className="grid grid-cols-2 gap-20 p-12 text-white bg-gradient-to-tr from-blue-400 via-blue-500 to-blue-500 rounded-xl">
     <div className="space-y-12">
       <div className="space-y-4">
         <h1 className="text-4xl font-bold">Get in touch</h1>

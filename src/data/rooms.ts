@@ -2,22 +2,32 @@ const Rooms = [
   {
     title: "Economic",
     image: "/images/rooms/economic.jpg",
-    price: "$100.00",
+    price: "$75.00",
   },
   {
-    title: "Villas",
+    title: "Villa Standart",
     image: "/images/rooms/villa.jpg",
-    price: "$125.00",
+    price: "$85.00",
+  },
+  {
+    title: "Main Building Standart",
+    image: "/images/rooms/family-room.jpg",
+    price: "$90.00",
   },
   {
     title: "Family Room",
     image: "/images/rooms/family-room.jpg",
-    price: "$150.00",
+    price: "$130.00",
   },
   {
     title: "King Suite",
     image: "/images/rooms/king-suite.jpg",
     price: "$200.00",
+  },
+  {
+    title: "Villa Rose",
+    image: "/images/rooms/villa-rose.jpg",
+    price: "$2000",
   },
 ];
 

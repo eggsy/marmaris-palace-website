@@ -19,22 +19,17 @@ const Button: React.FC<ButtonProps> = ({ href, target, children }) => {
     className: classes,
   };
 
-  const handleClick = () => {
-    console.log("yarra");
-    alert("Sorry, this website doesn't have any functionality yet.");
-  };
-
   if (href && isInternal === true)
     return (
       <Link href={href}>
-        <a href={href} {...props} onClick={() => handleClick()}>
+        <a href={href} {...props}>
           {children}
         </a>
       </Link>
     );
   else if (href)
     return (
-      <a href={href} {...props} onClick={() => handleClick()}>
+      <a href={href} {...props}>
         {children}
       </a>
     );

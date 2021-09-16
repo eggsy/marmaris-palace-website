@@ -22,9 +22,9 @@ const Card: React.FC<CardProps> = ({ title, image, price }) => {
       </div>
 
       <div className="flex flex-col p-4 bg-white rounded-bl-xl rounded-br-xl">
-        <span className="font-bold text-red-600">
+        <span className="font-bold text-blue-600">
           {price}{" "}
-          <span className="text-sm font-light text-red-400">/night</span>
+          <span className="text-sm font-light text-blue-400">/night</span>
         </span>
         <span className="text-lg font-medium">Booking ID: 123456</span>
       </div>

@@ -14,7 +14,7 @@ const Hero: React.FC = () => (
     }}
     className="relative text-white rounded-xl"
   >
-    <div className="w-full h-full space-y-8 bg-gradient-to-r via-transparent to-transparent rounded-xl from-green-500 p-28">
+    <div className="w-full h-full space-y-8 bg-gradient-to-r via-transparent to-transparent rounded-xl from-blue-500 p-28">
       <h1 className="text-6xl font-semibold text-shadow-lg">
         Wake up to a Dream
       </h1>

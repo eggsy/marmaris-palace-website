@@ -48,6 +48,12 @@ function MarmarisPalace({ Component, pageProps }: AppProps) {
         />
 
         <meta
+          name="twitter:card"
+          property="twitter:card"
+          content="summary_large_image"
+        />
+
+        <meta
           name="twitter:description"
           property="twitter:description"
           content={meta.description}

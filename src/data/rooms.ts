@@ -10,8 +10,8 @@ const Rooms = [
     price: "$85.00",
   },
   {
-    title: "Main Building Standart",
-    image: "/images/rooms/family-room.jpg",
+    title: "Main Building",
+    image: "/images/rooms/main-building.jpg",
     price: "$90.00",
   },
   {

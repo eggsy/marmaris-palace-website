@@ -10,7 +10,7 @@ const Introduction: React.FC = () => (
         </h2>
       </div>
 
-      <p className="md:text-lg">
+      <p className="text-gray-700 md:text-lg">
         What do you expect from a good holiday? Let us guess: To balance your
         mind and body, both feeling and looking good. In Grand Yazıcı Club
         Marmaris Palace it is our primary mission to make these happen. When you

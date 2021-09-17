@@ -15,20 +15,20 @@ const Activities: React.FC = () => (
         const Icon = activity.icon;
 
         return (
-          <Activity
+          <ActivityCard
             key={i}
             title={activity.title}
             description={activity.description}
           >
             <Icon size={30} />
-          </Activity>
+          </ActivityCard>
         );
       })}
     </div>
   </section>
 );
 
-const Activity: React.FC<ActivityProps> = ({
+const ActivityCard: React.FC<ActivityProps> = ({
   children,
   title,
   description,
@@ -39,7 +39,7 @@ const Activity: React.FC<ActivityProps> = ({
     </div>
 
     <h3 className="text-lg font-medium">{title}</h3>
-    <p className="line-clamp-3">{description}</p>
+    <p className="text-gray-700 line-clamp-3">{description}</p>
   </div>
 );
 

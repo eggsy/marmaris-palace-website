@@ -68,7 +68,7 @@ function MarmarisPalace({ Component, pageProps }: AppProps) {
 
       <Navbar />
 
-      <div className="container pb-10 mx-auto space-y-28">
+      <div className="container px-4 pb-10 mx-auto space-y-16 md:px-0 md:space-y-28">
         <Component {...pageProps} />
         <Footer />
       </div>

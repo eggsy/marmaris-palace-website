@@ -10,7 +10,7 @@ const Activities: React.FC = () => (
   <section id="activities" className="space-y-4">
     <h1 className="text-2xl font-bold">All About Our Facility</h1>
 
-    <div className="grid grid-cols-3 gap-8">
+    <div className="grid gap-8 md:grid-cols-3">
       {activitiesData.map((activity, i) => {
         const Icon = activity.icon;
 

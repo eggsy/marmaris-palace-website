@@ -9,7 +9,7 @@ const CheckRooms: React.FC = () => {
     <section className="space-y-4">
       <h1 className="text-2xl font-bold">Check Availability</h1>
 
-      <div className="grid grid-cols-3 gap-4 p-6 bg-white rounded-xl">
+      <div className="grid gap-6 p-6 bg-white md:gap-4 md:grid-cols-3 rounded-xl">
         <div className="space-y-2">
           <div className="p-2 bg-blue-200 rounded-full w-max">
             <HiCalendar size={30} className="text-blue-600" />

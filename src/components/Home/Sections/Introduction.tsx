@@ -1,16 +1,16 @@
 import Image from "next/image";
 
 const Introduction: React.FC = () => (
-  <section id="about" className="grid items-center grid-cols-2 gap-8">
+  <section id="about" className="grid items-center gap-8 md:grid-cols-2">
     <div className="space-y-4">
       <div>
         <h3 className="font-medium text-blue-500">#WakeUpToDream</h3>
-        <h2 className="font-semibold text-7xl">
+        <h2 className="text-5xl font-semibold md:text-7xl">
           Comfort and amazing view of Marmaris
         </h2>
       </div>
 
-      <p className="text-lg">
+      <p className="md:text-lg">
         What do you expect from a good holiday? Let us guess: To balance your
         mind and body, both feeling and looking good. In Grand Yazıcı Club
         Marmaris Palace it is our primary mission to make these happen. When you

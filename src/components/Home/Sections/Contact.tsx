@@ -5,27 +5,29 @@ import Button from "../../Button";
 
 /* Import data */
 import contact from "../../../data/contact";
-import React from "react";
 
 const Contact: React.FC = () => (
-  <section id="contact" className="grid grid-cols-2 gap-20 p-12 text-white bg-gradient-to-tr from-blue-400 via-blue-500 to-blue-500 rounded-xl">
+  <section
+    id="contact"
+    className="p-10 space-y-20 text-white md:space-y-0 md:gap-20 md:grid md:grid-cols-2 bg-gradient-to-tr from-blue-400 via-blue-500 to-blue-500 rounded-xl"
+  >
     <div className="space-y-12">
       <div className="space-y-4">
-        <h1 className="text-4xl font-bold">Get in touch</h1>
-        <p className="text-xl">
+        <h1 className="text-2xl font-bold md:text-4xl">Get in touch</h1>
+        <p className="md:text-xl">
           If you aren't sure which room to decide, give us a call and our team
           will help you to find the best place for you, and your family!
         </p>
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-2 truncate">
         {contact.map((cnt, i) => {
           const Icon = cnt.icon;
 
           return (
             <ContactItem key={i}>
-              <Icon size={30} />
-              <span>{cnt.value}</span>
+              <Icon size={30} className="flex-shrink-0" />
+              <span className="truncate">{cnt.value}</span>
             </ContactItem>
           );
         })}
@@ -34,7 +36,7 @@ const Contact: React.FC = () => (
       <Social />
     </div>
 
-    <div className="flex flex-col p-10 space-y-4 text-gray-700 bg-white rounded-xl">
+    <div className="flex flex-col p-8 space-y-4 text-gray-700 bg-white md:p-10 rounded-xl">
       <div className="flex flex-col space-y-2">
         <label htmlFor="name">Your Name</label>
         <input
@@ -70,11 +72,9 @@ const Contact: React.FC = () => (
 );
 
 const ContactItem: React.FC = ({ children }) => (
-  <div className="flex items-center p-2 space-x-4 transition-colors bg-blue-600 bg-opacity-0 border-2 border-blue-700 border-opacity-0 rounded-lg cursor-pointer w-max hover:bg-opacity-25 hover:border-opacity-5">
+  <div className="flex items-center p-2 space-x-4 truncate transition-colors bg-blue-600 bg-opacity-0 border-2 border-blue-700 border-opacity-0 rounded-lg cursor-pointer md:w-max hover:bg-opacity-25 hover:border-opacity-5">
     {children}
   </div>
 );
-
-const ContactInput: React.FC = () => <input />;
 
 export default Contact;

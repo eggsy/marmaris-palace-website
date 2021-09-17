@@ -7,7 +7,7 @@ const Facilities: React.FC = () => (
   <section className="space-y-4">
     <h1 className="text-2xl font-bold">Rooms</h1>
 
-    <div className="grid grid-cols-4 gap-8">
+    <div className="grid gap-8 md:grid-cols-4">
       {rooms.map((room, i) => (
         <Card
           key={i}

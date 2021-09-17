@@ -46,14 +46,14 @@ const CheckRooms: React.FC = () => {
 
 const Input: React.FC<{ value: string }> = ({ value }) => (
   <input
-    className="w-2/3 py-1 text-gray-700 transition-colors border-b-2 border-blue-400 border-opacity-50 focus:outline-none focus:border-opacity-100"
+    className="py-1 text-gray-700 transition-colors border-b-2 border-blue-400 border-opacity-50 md:w-2/3 focus:outline-none focus:border-opacity-100"
     type="text"
     defaultValue={value}
   />
 );
 
 const Select: React.FC<{ options: string[] }> = ({ options }) => (
-  <select className="w-2/3 px-0 py-1 border-b-2 border-blue-400 border-opacity-50 focus:border-opacity-100">
+  <select className="px-0 py-1 border-b-2 border-blue-400 border-opacity-50 md:w-2/3 focus:border-opacity-100">
     {options.map((option, i) => (
       <option key={i} selected={i === 0}>
         {option}

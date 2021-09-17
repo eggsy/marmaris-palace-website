@@ -6,9 +6,7 @@
 
 </p>
 
-> 🚔 Currently only available for desktop, mobile responsiveness is WIP.
-
-It's a cool, combined-from-Dribbble-designs hotel website template created with Next.js and Tailwind CSS. It is a simple hotel website template.
+It's a cool, combined-from-Dribbble-designs hotel website template created with Next.js and Tailwind CSS. It is a simple hotel website template. Fully responsive and includes couple of sections.
 
 ### Demo
 

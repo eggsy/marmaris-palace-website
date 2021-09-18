@@ -2,6 +2,9 @@ import { HiCalendar, HiTicket } from "react-icons/hi";
 
 import Button from "../../Button";
 
+/* Import data */
+import rooms from "../../../data/rooms";
+
 const CheckRooms: React.FC = () => {
   const date = new Date();
 
@@ -30,9 +33,7 @@ const CheckRooms: React.FC = () => {
 
           <div className="space-y-2">
             <h3 className="text-lg font-semibold">Room / Guests</h3>
-            <Select
-              options={["Economic Room", "Villa", "Family Room", "King Suit"]}
-            />
+            <Select options={rooms.map((room) => room.title)} />
           </div>
         </div>
 

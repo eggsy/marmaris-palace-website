@@ -7,7 +7,7 @@ const Activities = [
   {
     title: "Accomodation",
     description:
-      "Grand Yazıcı Club Marmaris Palace is the first one of the Grand Yazıcı Hotels that stand next to each other on the heaven bays of Marmaris İçmeler.",
+      "Our hotel stands next to each other on the heaven bays of İçmeler, Marmaris.",
     icon: AiFillHome,
   },
   {

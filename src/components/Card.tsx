@@ -16,7 +16,7 @@ const Card: React.FC<CardProps> = ({ title, image, price }) => {
         }}
         className="relative w-full h-40 rounded-tl-xl rounded-tr-xl"
       >
-        <h1 className="p-4 font-bold text-white uppercase truncate text-shadow-xl">
+        <h1 className="p-4 font-bold text-white uppercase truncate rounded-tl-lg bg-opacity-5 to-transparent via-transparent from-blue-600/50 bg-gradient-to-r text-shadow-xl">
           {title}
         </h1>
       </div>
